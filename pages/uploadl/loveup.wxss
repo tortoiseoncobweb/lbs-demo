@@ -1,0 +1,36 @@
+page{height:100%}
+
+.line{
+  height:1px;
+  width:100%;
+  background:dark;
+  overflow:hidden;
+  margin-top: 2%;
+
+}
+.section1{
+  border: 2px dashed gainsboro;  
+  margin-left: 3%;
+  margin-top: 2%;
+  width:94%;
+}
+.preview{
+  margin-left: 3%;
+}
+.uppic{
+  margin-top:3%;
+  margin-left:2%;
+}
+.btn-area{
+  margin-top:2%;
+  margin-right: 1%
+}
+.section2{ 
+  display:flex;
+  flex-direction: row;
+  height:80px;
+  border: 2px dashed gainsboro;  
+  margin-left: 3%;
+  margin-top: 2%;
+  width:94%;
+  }

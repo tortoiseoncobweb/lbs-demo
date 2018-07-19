@@ -1,0 +1,17 @@
+<view class="upload"style="width:100%;height:100%;">
+  <view class="{{selected1?'show':'hidden'}}"style="width:100%;height:100%;background-image:url('http://www.quququye.cn/weapp/touristappid.o6zAJs4E4--VRgRVCW_JM1Va31ZE.0d9fc23557e95b21af3943801f04d6f5.png');background-position:bottom;">
+  <view class="section1">
+    <textarea  bindinput="bindTextAreaBlur2"  maxlength= "-1" auto-focus="true" placeholder="挖个坑，埋点土，反正别人看不见" placeholder-style="#f1f1f1"/>
+        <image class="uppic" bindtap="bindViewTap2" style="width:50px;height:50px;background:url('http://www.quququye.cn/weapp/touristappid.o6zAJs4E4--VRgRVCW_JM1Va31ZE.cc523f65b82d2dcd2bfcdca0ae7880c9.png') no-repeat;background-size: 100% 100%;"></image>
+ <view class="photo">  
+ <view class="preview">          
+ <image wx:for="{{url2}}"  wx:key="unique" src="{{item}}" data-index="{{index}}" bindtap="previewImage2"mode="aspectFill" style="width:30%; height:80px; padding:1%"></image>           
+            </view>           
+          </view>
+          </view>
+  <view class="section2">
+          <textarea placeholder="标签8个字差不多啦" auto-focus="true" bindinput="getlabel2"  maxlength= "16" />   
+          <image class="btn-area" bindtap="Upload2" style="width:100px;height:100px;background:url('http://www.quququye.cn/weapp/secret.png') no-repeat;background-size: 100% 100%;"></image>
+     </view>             
+  </view>
+</view>

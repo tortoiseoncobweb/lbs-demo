@@ -1,0 +1,29 @@
+<view class="background"style="width:100%;height:auto;background-color:#fff668">
+<view class="section"style="width:100%;height:auto;background-image:url('http://www.quququye.cn/weapp/touristappid.o6zAJs4E4--VRgRVCW_JM1Va31ZE.6817c495e8668edd4c3a97028f53058f.png');background-size:cover">
+ <view class="header">
+   <view class="h1">
+     <image class="userinfo-avatar" src="{{aurl}}" ></image>  
+     <text class="userinfo-nickname">{{userinfo}}</text>
+   </view>
+   <view class="h2">
+     <text class="label">{{label}}</text> 
+     <text class="formattime">{{date}}</text>
+   </view>
+ </view>
+    <swiper class="images"indicator-dots="true" autoplay="true" interval="5000" duration="500">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="silde-image" style="width:105%" mode="aspectFit"bindtap="previewImage">
+          </image>
+        </swiper-item>
+      </block>
+     </swiper>   
+ </view>
+ <view class="tct">
+<text class="ti-content">
+        {{text}}
+    </text>
+    </view>
+</view>
+<view class="background2"style="width:auto;height:39%;background-image:url('http://www.quququye.cn/weapp/touristappid.o6zAJs4E4--VRgRVCW_JM1Va31ZE.0b81f5d4d2383af8c00c4678b29950aa.png');background-size:contain">
+</view>

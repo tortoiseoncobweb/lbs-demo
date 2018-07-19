@@ -1,0 +1,29 @@
+<view class="background"style="width:100%;height:auto;background-color:#ffb5c2">
+<view class="section"style="width:100%;height:auto;background-image:url('http://www.quququye.cn/weapp/loveheader2.jpg ');background-size:cover">
+ <view class="header">
+   <view class="h1">
+     <image class="userinfo-avatar" src="{{aurl}}" ></image>  
+     <text class="userinfo-nickname">{{userinfo}}</text>
+   </view>
+   <view class="h2">
+     <text class="label">{{label}}</text> 
+     <text class="formattime">{{date}}</text>
+   </view>
+ </view>
+    <swiper class="images"indicator-dots="true" autoplay="true" interval="5000" duration="500">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="silde-image" style="width:105%" mode="aspectFit"bindtap="previewImage">
+          </image>
+        </swiper-item>
+      </block>
+     </swiper>   
+ </view>
+ <view class="tct">
+<text class="ti-content">
+        {{text}}
+    </text>
+    </view>
+</view>
+<view class="background2"style="width:auto;height:39%;background-image:url('http://www.quququye.cn/weapp/lovebottom.jpg');background-size:contain">
+</view>

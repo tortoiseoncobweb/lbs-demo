@@ -1,0 +1,56 @@
+page{height: 100%
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+} 
+.userinfo-avatar{
+  width: 80px;
+  height: 80px;
+  border: 3px solid ;
+  border-radius: 50%;
+  border-color:darkslateblue }
+.userinfo-nickname{
+  font-size: 14px;
+  margin-left: 14%;
+}
+.h1{ display: flex;
+  flex-direction: column;}
+.h2{  
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  margin-top: 8%;
+  }
+.label{
+  font-size: 14px;
+  margin-top:-5%;
+}  
+.formattime{
+  font-size: 14px;
+  margin-top:5%;
+}
+.images{
+ 
+  margin-left:-5%;
+  margin-top: 2%;
+  width:104%;
+  height:240px ;
+}
+  .tct{
+  margin-left: 3%;
+  margin-top: 2%;
+  width:94%;  
+    }
+.ti-content{
+  white-space: pre-wrap;
+  word-break: break-all;
+   word-wrap: break-word; 
+   font-size: 17px;
+}
+.background2{
+  
+
+}

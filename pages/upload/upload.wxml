@@ -1,0 +1,15 @@
+<view class="upload"style="width:100%;height:100%;">
+  <view style="width:100%;height:100%;background-image:url('http://www.quququye.cn/weapp/touristappid.o6zAJs4E4--VRgRVCW_JM1Va31ZE.a2dfc5a8292c46020059aef0e880a475.png');background-position:center;" >
+    <view class="section1">
+     <textarea  bindinput="bindTextAreaBlur"auto-focus="true"  maxlength= "-1"  placeholder="说说这儿的故事吧" placeholder-style="#f1f1f1"/>
+     <image class="uppic" bindtap="bindViewTap" style="width:50px;height:50px;background:url('http://www.quququye.cn/weapp/touristappid.o6zAJs4E4--VRgRVCW_JM1Va31ZE.cd2f1725c781b416dccf27ce89710328.png') no-repeat;background-size: 100% 100%;"></image>
+       <view class="preview">          
+         <image wx:for="{{url1}}" wx:key="unique" src="{{item}}" data-index="{{index}}" bindtap="previewImage"mode="aspectFill" style="width:30%; height:80px; padding:1%"></image>           
+       </view>           
+    </view>
+    <view class="section2">
+      <textarea placeholder="标签8个字差不多啦"auto-focus="true" bindinput="getlabel" maxlength= "16" />   
+      <image class="btn-area" bindtap="Upload1" style="width:100px;height:100px;background:url('http://www.quququye.cn/weapp/touristappid.o6zAJs4E4--VRgRVCW_JM1Va31ZE.146e2a87b0c0aae0940c643458cad23b.png') no-repeat;background-size: 100% 100%;"></image>
+    </view>        
+  </view>
+</view>

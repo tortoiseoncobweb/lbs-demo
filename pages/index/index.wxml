@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="area">
+
+  <map id="map4select" show-location
+  longitude="{{longitude}}" latitude="{{latitude}}" 
+  markers="{{markers}}"bindmarkertap="markertap"
+  scale="18" 
+  style="width:{{map_width}}px;height:{{map_height}}px"
+  bindregionchange="regionchange"
+  controls="{{controls}}" bindcontroltap="controltap" >
+</map>
+
+</view>

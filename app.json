@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/upload/upload",
+    "pages/item/item",
+    "pages/logs/logs",
+    "pages/me/me",
+    "pages/itme2/itme2",
+    "pages/uploadl/loveup",
+    "pages/item3/item3",
+    "pages/uploadpra/uploadpra",
+    "pages/list/list"  
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff668",
+    "navigationBarTitleText": "去也",
+    "navigationBarTextStyle": "black"
+  }
+}
